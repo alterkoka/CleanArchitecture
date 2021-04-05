@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.AccountController.AuthenticateAsync(Application.DTOs.Account.AuthenticationRequest)">
+            <summary>
+            Authenticates user in system
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.AccountController.RegisterAsync(Application.Features.Users.Commands.CreateUser.CreateUserCommand)">
+            <summary>
+            Registers user in system
+            </summary>
+            <param name="command"></param>
+            <response code="200">User created</response>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.AccountController.Update(Application.Features.Users.Commands.UpdateUser.UpdateUserCommand)">
+            <summary>
+            Updates user in system
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.AccountController.Delete(System.Guid)">
+            <summary>
+            Deletes User in system
+            </summary>
+            <param name="id" example="00000000-0000-0000-0000-000000000000">The User id (Guid)</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
